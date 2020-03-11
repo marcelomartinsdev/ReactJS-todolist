@@ -1,13 +1,39 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #4c125a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  background-color: #1b0544;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
 }
+
+#to-do-form input{
+  background-color: #2045aa;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: azure;
+}
+#to-do-form input::placeholder{
+  color: #0a0414;
+  }
+#to-do-form input:focus,#to-do-form button:focus{
+  outline: none;
+}
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #ce007f;
+  cursor: pointer;
+  font-weight: bolder;
+  color: azure;
+}
+
